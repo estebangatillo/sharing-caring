@@ -1,10 +1,6 @@
 # Create focal buffers for composite raster bands
 source("./R/init.R")
 
-# TODO update band names to match ESA (in init.R)
-# band_names <- c('B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B11', 'B12')
-# band_names <- c('10.1', '10.2', '10.3', '10.4', '10.5', '10.7', '10.8', '10.9', '10.10', '10.11')
-
 buffers<-c(seq(50, 500, 50), seq(600, 1000, 100))
 
 # Run a single moving window
